@@ -1,8 +1,3 @@
-// Date:      6/11/2021
-// Author:    Ksenia Choate
-// Description:   Test class for the "ContractAmendmentActions" class
-// History:    V.1
-
 @isTest
 private class ContractAmendmentActionTest {
   /***** Method that returns the sum of Amendment Amounts. To be used in assertions in test methods. *****/
