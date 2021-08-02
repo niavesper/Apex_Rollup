@@ -1,9 +1,3 @@
-// Date:      6/11/21
-// Author:    Ksenia Choate
-// Description:  Trigger created to acommodate rollup summaries between Grant__Funding_Application__c (parent)
-// and Contract_Amendment__c (child) in a lookup relationship. Invokes the class "ContractAmendmentAction."
-// History:    V.1
-
 trigger ContractAmendmentAction on Contract_Amendment__c(
   after insert,
   after update,
