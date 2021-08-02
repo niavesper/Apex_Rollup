@@ -1,9 +1,3 @@
-// Date:      6/11/21
-// Author:    Ksenia Choate
-// Description:  Class created to acommodate rollup summaries between Grant__Funding_Application__c (parent)
-// and Contract_Amendment__c (child) in a lookup relationship. Triggered by the "ContractAmendmentAction" trigger
-// History:    V.1
-
 public class ContractAmendmentAction {
   // contractAmendments = Trigger.new or Trigger.old, depending on the trigger context variables (see trigger "ContractAmendmentAction"). oldContractAmendmentsMap = Trigger.oldMap
   public static void calculateTotalAmount(
