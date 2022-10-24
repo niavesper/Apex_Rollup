@@ -1,5 +1,6 @@
 public class ContractAmendmentAction {
-  // contractAmendments = Trigger.new or Trigger.old, depending on the trigger context variables (see trigger "ContractAmendmentAction"). oldContractAmendmentsMap = Trigger.oldMap
+  // contractAmendments = Trigger.new or Trigger.old, depending on the trigger context variables (see trigger "ContractAmendmentAction"). 
+  // oldContractAmendmentsMap = Trigger.oldMap
   public static void calculateTotalAmount(
     List<Contract_Amendment__c> contractAmendments,
     Map<Id, Contract_Amendment__c> oldContractAmendmentsMap
